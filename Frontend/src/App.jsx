@@ -98,7 +98,7 @@
 //Display Chats in Thread
 //Delete a Thread
 //Implement Dropdown and add extra features
-import './App.css'
+import './App.css';
 import Sidebar from './Sidebar.jsx';
 import ChatWindow from './ChatWindow.jsx';
 import { MyContext } from './MyContext.jsx';

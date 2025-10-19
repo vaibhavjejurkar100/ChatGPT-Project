@@ -30,7 +30,7 @@ button {
     width: 25px;
     background-color: #fff;
     border-radius: 50%;
-    /* object-fit: cover; */
+    object-fit: cover; 
 }
 
 button span {

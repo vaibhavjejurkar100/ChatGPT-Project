@@ -386,7 +386,7 @@ function Sidebar() {
     return (
        <section className="sidebar">
             <button onClick={createNewChat}>
-                <img src="https://logos-world.net/wp-content/uploads/2023/02/ChatGPT-Logo.png" alt="gpt logo" className="logo"></img>
+                <img src="public/blacklogo.jpg" alt="gpt logo" className="logo"></img>
                 <span><i className="fa-solid fa-pen-to-square"></i></span>
             </button>
 

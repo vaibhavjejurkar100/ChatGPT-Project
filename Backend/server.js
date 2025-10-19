@@ -97,7 +97,7 @@ import chatRoutes from "./routes/chat.js";
 
 
 const app = express();
-const PORT = 8080;
+const PORT = "https://chatgpt-project-9lqf.onrender.com/";
 
 app.use(express.json());
 app.use(cors({

@@ -101,7 +101,7 @@ const PORT = 8080;
 
 app.use(express.json());
 app.use(cors({
-    origin: "https://chatgpt-project-9lqf.onrender.com/",
+    origin: "chatgpt-project-9lqf.onrender.com/",
     methods: ["GET", "POST", "PUT", "DELETE"],
     Credentials: true
 }));

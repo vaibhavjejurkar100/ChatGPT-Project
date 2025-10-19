@@ -112,7 +112,7 @@ app.listen(PORT, () => {
 const connectDB = async() => {
     try {
         // await mongoose.connect(process.env.MONGODB_URI);
-        Backend_URL = "https://chatgpt-project-backend.onrender.com/";
+        const Backend_URL = "https://chatgpt-project-9lqf.onrender.com/";
         await mongoose.connect(process.env.Backend_URL);
         console.log("Connected with Database");
     } catch(err) {
